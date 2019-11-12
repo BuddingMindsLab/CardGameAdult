@@ -16,8 +16,8 @@
 		3102C9A6204F117A00485F9D /* start to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99E204F117900485F9D /* start to orange.mp4 */; };
 		3102C9A7204F117A00485F9D /* pink to orange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C99F204F117900485F9D /* pink to orange.mp4 */; };
 		3102C9A8204F117A00485F9D /* start to blue.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102C9A0204F117900485F9D /* start to blue.mp4 */; };
+		311109E5237B2EC40062E8ED /* correct-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 311109E4237B2EC40062E8ED /* correct-sound.wav */; };
 		315E04E6202F8C450061EF28 /* IDScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315E04E5202F8C450061EF28 /* IDScreenViewController.swift */; };
-		315E04E8202FA8560061EF28 /* correct-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 315E04E7202FA8560061EF28 /* correct-sound.wav */; };
 		316168E0205A16C6000D3591 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316168DF205A16C6000D3591 /* InstructionsViewController.swift */; };
 		316168E2205A1745000D3591 /* UnpauseConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316168E1205A1745000D3591 /* UnpauseConfirmationViewController.swift */; };
 		31958AA6201CF1C400E32699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31958AA5201CF1C400E32699 /* AppDelegate.swift */; };
@@ -44,8 +44,8 @@
 		3102C99E204F117900485F9D /* start to orange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "start to orange.mp4"; sourceTree = "<group>"; };
 		3102C99F204F117900485F9D /* pink to orange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pink to orange.mp4"; sourceTree = "<group>"; };
 		3102C9A0204F117900485F9D /* start to blue.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "start to blue.mp4"; sourceTree = "<group>"; };
+		311109E4237B2EC40062E8ED /* correct-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "correct-sound.wav"; sourceTree = "<group>"; };
 		315E04E5202F8C450061EF28 /* IDScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDScreenViewController.swift; sourceTree = "<group>"; };
-		315E04E7202FA8560061EF28 /* correct-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "correct-sound.wav"; path = "../../../../../../Downloads/correct-sound.wav"; sourceTree = "<group>"; };
 		316168DF205A16C6000D3591 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 		316168E1205A1745000D3591 /* UnpauseConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpauseConfirmationViewController.swift; sourceTree = "<group>"; };
 		31958AA2201CF1C400E32699 /* Card Match Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Match Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,20 +75,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311109E3237B2EC40062E8ED /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				311109E4237B2EC40062E8ED /* correct-sound.wav */,
+			);
+			name = sounds;
+			path = ../../../../../Desktop/sounds;
+			sourceTree = "<group>";
+		};
 		315E04E3202F8BEA0061EF28 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				315E04E4202F8BF20061EF28 /* Sounds */,
+				311109E3237B2EC40062E8ED /* sounds */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		315E04E4202F8BF20061EF28 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				315E04E7202FA8560061EF28 /* correct-sound.wav */,
-			);
-			path = Sounds;
 			sourceTree = "<group>";
 		};
 		31958A99201CF1C400E32699 = {
@@ -167,16 +168,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Budding Minds Admin";
 				TargetAttributes = {
 					31958AA1201CF1C400E32699 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 31958A9D201CF1C400E32699 /* Build configuration list for PBXProject "Card Match Game" */;
+			buildConfigurationList = 31958A9D201CF1C400E32699 /* Build configuration list for PBXProject "Card Match Game Adult - Isabelle Edit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -206,9 +208,9 @@
 				3102C9A5204F117A00485F9D /* orange to blue.mp4 in Resources */,
 				3102C9A6204F117A00485F9D /* start to orange.mp4 in Resources */,
 				3102C9A7204F117A00485F9D /* pink to orange.mp4 in Resources */,
+				311109E5237B2EC40062E8ED /* correct-sound.wav in Resources */,
 				3102C9A8204F117A00485F9D /* start to blue.mp4 in Resources */,
 				31FE09DA20444D2C00DDD4E7 /* blue to orange.mp4 in Resources */,
-				315E04E8202FA8560061EF28 /* correct-sound.wav in Resources */,
 				31958AB0201CF1C400E32699 /* LaunchScreen.storyboard in Resources */,
 				31958AAD201CF1C400E32699 /* Assets.xcassets in Resources */,
 				31958AAB201CF1C400E32699 /* Main.storyboard in Resources */,
@@ -273,6 +275,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -280,6 +283,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -307,12 +311,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,6 +335,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -337,6 +343,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -358,10 +365,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -377,8 +385,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BuddingMindsLab.Card-Match-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -393,15 +401,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BuddingMindsLab.Card-Match-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31958A9D201CF1C400E32699 /* Build configuration list for PBXProject "Card Match Game" */ = {
+		31958A9D201CF1C400E32699 /* Build configuration list for PBXProject "Card Match Game Adult - Isabelle Edit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31958AB2201CF1C400E32699 /* Debug */,
