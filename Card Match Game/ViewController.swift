@@ -119,6 +119,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         // Sets up the orderArray with the proper order depending on id
         model.setOrderArray(id: participId)
+        print("--- participId: \(participId) ---")
+        print("--- group: \((participId % 12) + 1) --- ")
         
         cardArray = model.getMatchingCards(phase: phase)
         
@@ -219,9 +221,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
         
         currentLine.append(String(gid))
+        debugPrint("------ group id: " + String(gid) + "------")
         
         // 3 - subject #
         currentLine.append(String(participId))
+        debugPrint("------ subject #: " + String(participId) + "------")
         
         // 4 - block ID
         currentLine.append(String(phase))

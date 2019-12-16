@@ -351,7 +351,7 @@ class CardModel{
         
         
         // A = pink, B = blue, C = orange
-        switch id % 16 {
+        switch id % 12 {
             case 0:
                 orderArray.append(order_A)
                 orderArray.append(order_B)
@@ -520,62 +520,62 @@ class CardModel{
                 bckgArray.append(orange)
                 bckgArray.append(orange)
                 bckgArray.append(pink)
-            case 12:
-                orderArray.append(order_A)
-                orderArray.append(order_B)
-                orderArray.append(order_A_prime)
-                orderArray.append(order_C_prime)
-                orderArray.append(order_A)
-                orderArray.append(order_B)
-                
-                bckgArray.append(pink)
-                bckgArray.append(blue)
-                bckgArray.append(pink)
-                bckgArray.append(orange)
-                bckgArray.append(pink)
-                bckgArray.append(blue)
-            case 13:
-                orderArray.append(order_A)
-                orderArray.append(order_B)
-                orderArray.append(order_C_prime)
-                orderArray.append(order_A_prime)
-                orderArray.append(order_A)
-                orderArray.append(order_B)
-                
-                bckgArray.append(pink)
-                bckgArray.append(blue)
-                bckgArray.append(orange)
-                bckgArray.append(pink)
-                bckgArray.append(pink)
-                bckgArray.append(blue)
-            case 14:
-                orderArray.append(order_B)
-                orderArray.append(order_A)
-                orderArray.append(order_A_prime)
-                orderArray.append(order_C_prime)
-                orderArray.append(order_B)
-                orderArray.append(order_A)
-                
-                bckgArray.append(blue)
-                bckgArray.append(pink)
-                bckgArray.append(pink)
-                bckgArray.append(orange)
-                bckgArray.append(blue)
-                bckgArray.append(pink)
-            case 15:
-                orderArray.append(order_B)
-                orderArray.append(order_A)
-                orderArray.append(order_C_prime)
-                orderArray.append(order_A_prime)
-                orderArray.append(order_B)
-                orderArray.append(order_A)
-                
-                bckgArray.append(blue)
-                bckgArray.append(pink)
-                bckgArray.append(orange)
-                bckgArray.append(pink)
-                bckgArray.append(blue)
-                bckgArray.append(pink)
+//            case 12:
+//                orderArray.append(order_A)
+//                orderArray.append(order_B)
+//                orderArray.append(order_A_prime)
+//                orderArray.append(order_C_prime)
+//                orderArray.append(order_A)
+//                orderArray.append(order_B)
+//
+//                bckgArray.append(pink)
+//                bckgArray.append(blue)
+//                bckgArray.append(pink)
+//                bckgArray.append(orange)
+//                bckgArray.append(pink)
+//                bckgArray.append(blue)
+//            case 13:
+//                orderArray.append(order_A)
+//                orderArray.append(order_B)
+//                orderArray.append(order_C_prime)
+//                orderArray.append(order_A_prime)
+//                orderArray.append(order_A)
+//                orderArray.append(order_B)
+//
+//                bckgArray.append(pink)
+//                bckgArray.append(blue)
+//                bckgArray.append(orange)
+//                bckgArray.append(pink)
+//                bckgArray.append(pink)
+//                bckgArray.append(blue)
+//            case 14:
+//                orderArray.append(order_B)
+//                orderArray.append(order_A)
+//                orderArray.append(order_A_prime)
+//                orderArray.append(order_C_prime)
+//                orderArray.append(order_B)
+//                orderArray.append(order_A)
+//
+//                bckgArray.append(blue)
+//                bckgArray.append(pink)
+//                bckgArray.append(pink)
+//                bckgArray.append(orange)
+//                bckgArray.append(blue)
+//                bckgArray.append(pink)
+//            case 15:
+//                orderArray.append(order_B)
+//                orderArray.append(order_A)
+//                orderArray.append(order_C_prime)
+//                orderArray.append(order_A_prime)
+//                orderArray.append(order_B)
+//                orderArray.append(order_A)
+//
+//                bckgArray.append(blue)
+//                bckgArray.append(pink)
+//                bckgArray.append(orange)
+//                bckgArray.append(pink)
+//                bckgArray.append(blue)
+//                bckgArray.append(pink)
             default:
                 print("Error with participant ID")
         }
